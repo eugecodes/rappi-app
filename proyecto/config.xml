@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.pp.instachupe" version="1.0.0" xmlns="http://www.w3.org/ns/widgets">
+    <preference name="AllowInlineMediaPlayback" value="false" />
+    <preference name="BackupWebStorage" value="cloud" />
+    <preference name="DisallowOverscroll" value="false" />
+    <preference name="EnableViewportScale" value="false" />
+    <preference name="KeyboardDisplayRequiresUserAction" value="true" />
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    <preference name="SuppressesIncrementalRendering" value="false" />
+    <preference name="GapBetweenPages" value="0" />
+    <preference name="PageLength" value="0" />
+    <preference name="PaginationBreakingMode" value="page" />
+    <preference name="PaginationMode" value="unpaginated" />
+    <feature name="LocalStorage">
+        <param name="ios-package" value="CDVLocalStorage" />
+    </feature>
+    <feature name="Notification">
+        <param name="ios-package" value="CDVNotification" />
+    </feature>
+    <allow-intent href="itms:*" />
+    <allow-intent href="itms-apps:*" />
+    <name>Instachupe</name>
+    <description>
+        Instachupe
+    </description>
+    <author email="emilseuor@hotmail.com" href="">
+        Emil
+    </author>
+    <content src="index.html" />
+    <preference name="permissions" value="none" />
+    <preference name="orientation" value="default" />
+    <preference name="target-device" value="universal" />
+    <preference name="fullscreen" value="true" />
+    <preference name="webviewbounce" value="true" />
+    <preference name="prerendered-icon" value="true" />
+    <preference name="stay-in-webview" value="false" />
+    <preference name="ios-statusbarstyle" value="black-opaque" />
+    <preference name="detect-data-types" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+    <preference name="show-splash-screen-spinner" value="true" />
+    <preference name="auto-hide-splash-screen" value="true" />
+    <preference name="disable-cursor" value="false" />
+    <gap:plugin name="org.apache.cdv.battery-status" />
+    <gap:plugin name="org.apache.cdv.camera" />
+    <gap:plugin name="org.apache.cdv.media-capture" />
+    <gap:plugin name="org.apache.cdv.console" />
+    <gap:plugin name="org.apache.cdv.contacts" />
+    <gap:plugin name="org.apache.cdv.device" />
+    <gap:plugin name="org.apache.cdv.device-motion" />
+    <gap:plugin name="org.apache.cdv.device-orientation" />
+    <gap:plugin name="org.apache.cdv.dialogs" />
+    <gap:plugin name="org.apache.cdv.file" />
+    <gap:plugin name="org.apache.cdv.file-transfer" />
+    <gap:plugin name="org.apache.cdv.geolocation" />
+    <gap:plugin name="org.apache.cdv.globalization" />
+    <gap:plugin name="org.apache.cdv.inappbrowser" />
+    <gap:plugin name="org.apache.cdv.media" />
+    <gap:plugin name="org.apache.cdv.network-information" />
+    <gap:plugin name="org.apache.cdv.splashscreen" />
+    <gap:plugin name="org.apache.cdv.vibration" />
+    <icon src="icon.png" />
+    <icon gap:platform="ios" height="57" src="www/res/icon/ios/icon-57.png" width="57" />
+    <icon gap:platform="ios" height="72" src="www/res/icon/ios/icon-72.png" width="72" />
+    <icon gap:platform="ios" height="114" src="www/res/icon/ios/icon-57-2x.png" width="114" />
+    <icon gap:platform="ios" height="144" src="www/res/icon/ios/icon-72-2x.png" width="144" />
+    <icon gap:platform="webos" src="www/res/icon/webos/icon-64.png" />
+    <gap:splash gap:platform="ios" height="480" src="www/res/screen/ios/screen-iphone-portrait.png" width="320" />
+    <gap:splash gap:platform="ios" height="960" src="www/res/screen/ios/screen-iphone-portrait-2x.png" width="640" />
+    <gap:splash gap:platform="ios" height="1136" src="www/res/screen/ios/screen-iphone-portrait-568h-2x.png" width="640" />
+    <gap:splash gap:platform="ios" height="1024" src="www/res/screen/ios/screen-ipad-portrait.png" width="768" />
+    <gap:splash gap:platform="ios" height="768" src="www/res/screen/ios/screen-ipad-landscape.png" width="1024" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+</widget>
